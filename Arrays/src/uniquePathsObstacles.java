@@ -1,9 +1,11 @@
 public class uniquePathsObstacles {
     public static void main(String[] args){
+        int arr[][] = {{0,0,0},{0,1,0},{0,0,0}};
         int length = 3;
         int height = 7;
-        if(length == 0 || height==0)
-            System.out.println(1);
+        if(length == 0 || height==0){
+
+        }
         else {
             int[][] nums = new int[length][height];
             for (int i = 0; i < length; i++) {
