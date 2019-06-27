@@ -1,6 +1,6 @@
 public class isSubsequence {
     // the function returns true is a sub sequence is present using character arrays
-    static boolean findSubsequence(char[] s, char[] t){
+    private static boolean findSubsequence(char[] s, char[] t){
         int sStart = 0;
         int tStart = 0;
 
