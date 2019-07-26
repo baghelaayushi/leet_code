@@ -1,16 +1,16 @@
 public class hcf {
     public static int gcd(int x, int y){
         if( x==0)
-            return x;
-        if(y==0)
             return y;
+        if(y==0)
+            return x;
         if( x==y){
             return x;
         }
         if(x>y){
-            return gcd(x-y,y);
+            return gcd(x%y,y);
         }
-        return gcd(x,y-x);
+        return gcd(x,y%x);
     }
     public static int getDiff(int A) {
         double max=0.00000000;
@@ -33,8 +33,8 @@ public class hcf {
         return difference;
     }
     public static void main(String args[]){
-        int x = getDiff(123);
-        System.out.print(x);
-
+        //int x = getDiff(123);
+        //System.out.print(x);
+        System.out.println(gcd(6,9));
     }
 }

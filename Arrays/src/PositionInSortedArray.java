@@ -52,8 +52,8 @@ class PositionInSortedArray{
     }
 
     public static void main(String args[]) {
-        int nums[] = {5,7,7,8,8,10};
-        int target =  8;
+        int nums[] = {1,2,2,3,8,9,10};
+        int target =  4;
         int min= bSearchMin(nums,0,nums.length-1,target);
         int max = bSearchMax(nums,0,nums.length-1,target);
         int arr[] = {min,max};

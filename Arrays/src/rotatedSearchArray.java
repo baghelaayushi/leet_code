@@ -41,8 +41,8 @@ public class rotatedSearchArray {
         return -1;
     }
     public static void main(String[] args){
-        int[] nums = {8, 9, 2, 3, 4};
-        int digit = 9;
+        int[] nums = {55,57,60,100,10,11,13,17,19,21};
+        int digit = 17;
         int l=0,r=nums.length -1;
         int x = find(nums,digit,l,r);
         System.out.println(x);
