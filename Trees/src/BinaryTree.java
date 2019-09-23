@@ -3,11 +3,11 @@ public class BinaryTree {
 
     //This method returns a Tree node root
     static TreeNode createTree(){
-        TreeNode root = new TreeNode(8);
-        TreeNode five = new TreeNode(5);
-        TreeNode four = new TreeNode(4);
-        TreeNode nine = new TreeNode(9);
-        TreeNode seven = new TreeNode(7);
+        TreeNode root = new TreeNode(-8);
+        TreeNode five = new TreeNode(3);
+        TreeNode four = new TreeNode(9);
+        TreeNode nine = new TreeNode(-8);
+        TreeNode seven = new TreeNode(4);
         TreeNode one = new TreeNode(1);
         TreeNode twelve = new TreeNode(12);
         TreeNode two = new TreeNode(2);
@@ -18,11 +18,11 @@ public class BinaryTree {
         root.right = four;
         five.left = nine;
         five.right = seven;
-        seven.left = one;
-        seven.right = twelve;
-        twelve.left = two;
-        four.right = eleven;
-        eleven.left = three;
+        //seven.left = one;
+        //seven.right = twelve;
+        //twelve.left = two;
+        //four.right = eleven;
+        //eleven.left = three;
 
         return root;
     }
