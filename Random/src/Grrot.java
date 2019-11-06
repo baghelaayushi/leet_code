@@ -2,6 +2,12 @@ import java.util.Arrays;
 
 public class Grrot {
     public static int getSum(int A, int B, int[] C) {
+        String s = "abcdef";
+
+        for(int i=0;i<s.length();i++){
+            int x = s.charAt(i)-97;
+            System.out.println(x);
+        }
         Arrays.sort(C);
         int min = C[0];
         int max = C[C.length-1];

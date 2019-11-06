@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 class PositionInSortedArray{
     static int bSearchMin(int arr[],int l,int r,int digit){
         if (r >= l) {
@@ -56,6 +59,8 @@ class PositionInSortedArray{
         int target =  4;
         int min= bSearchMin(nums,0,nums.length-1,target);
         int max = bSearchMax(nums,0,nums.length-1,target);
+        List<Integer> nums1 = new ArrayList<>();
+
         int arr[] = {min,max};
         System.out.print(arr[0]+","+arr[1]);
 

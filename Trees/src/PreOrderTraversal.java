@@ -1,12 +1,11 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class PreOrderTraversal {
     static List<Integer> lst = new ArrayList<>();
     static void preOrder(TreeNode root) {
         if (root == null)
             return;
+
 
         /* first print the data of node */
         lst.add(root.val);

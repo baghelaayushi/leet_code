@@ -22,7 +22,7 @@ public class combinationSum {
 
     public static void main(String[] args){
         Queue queue1 = new LinkedList();
-        int nums[] = {2,3,5};
+        int nums[] = {10,1,2,4,7,6,5};
         int target = 8;
         solveCSUtil(nums,0,0,target,new ArrayList<>());
         System.out.println(output);

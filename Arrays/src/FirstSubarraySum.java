@@ -46,7 +46,7 @@ public class FirstSubarraySum {
     }
     public static void main(String []args){
         int arr[] ={10,20,40,100};
-        int x[] =solve(arr,5);
+        int x[] =solve(arr,30);
         System.out.println(x[0]);
     }
 }
