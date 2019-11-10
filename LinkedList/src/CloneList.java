@@ -12,6 +12,8 @@ public class CloneList {
             return null;
 
         ListNode1 head= A;
+
+        // Adding a copy of a node in the middle
         while(head!= null){
             ListNode1 node = new ListNode1(head.val);
             node.next = head.next;
@@ -21,12 +23,16 @@ public class CloneList {
 
         head = A;
 
+        //assigning random pointers
+
         while(head!=null){
             head.next.random = head.random.next;
             head = head.next.next;
         }
 
         head = A.next;
+
+        // separating the copy
         while (head.next!=null){
             head.next = head.next.next;
         }
