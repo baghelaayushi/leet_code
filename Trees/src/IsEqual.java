@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class IsEqual {
     public static int isSameTree(TreeNode A, TreeNode B) {
         if (A == null && B == null)
@@ -26,5 +29,18 @@ public class IsEqual {
     }
     public static void main(String args[]){
         System.out.println(isSameTree(BinaryTree.createTree(),BinaryTree.createTree()));
+        String s[] = new String[1000];
+        s[4] = "4";
+        s[1] = "1";
+        s[0] = "0";
+        int position = 0;
+        for(String c:s ){
+            if(c == null){
+                break;
+            }
+            position++;
+        }
+        System.out.println(position);
+
     }
 }
