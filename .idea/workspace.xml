@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c684006-d5b3-4c34-aa38-aaf0d0925337" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Arrays/src/MaxNumberOfVowels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arrays/src/PowerOfInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arrays/src/binarSearchNonRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/src/ContainsDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/src/ContainsNearbyDuplicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arrays/MaxNumberOfVowels.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arrays/MaxNumberOfVowels.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,24 +24,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="104">
               <caret line="84" column="5" selection-start-line="61" selection-start-column="3" selection-end-line="84" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Arrays/src/FirstMissing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DynamicProgramming/src/LCS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -76,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Arrays/src/binarSearchNonRecursive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="13" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="141">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -85,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Arrays/src/PowerOfInt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="-505">
               <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="53" />
               <folding>
                 <element signature="e#1458#1459#0" expanded="true" />
@@ -94,13 +76,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Arrays/src/MaxNumberOfVowels.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="67" column="16" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+            <state relative-caret-position="243">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
               <folding>
-                <element signature="e#2059#2060#0" expanded="true" />
+                <element signature="e#2466#2467#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Arrays/src/ContainsDuplicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="15" column="52" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="15" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Arrays/src/ContainsNearbyDuplicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,6 +136,7 @@
       <find>nums</find>
       <find>arr</find>
       <find>syste</find>
+      <find>-&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>obstacleGrid</replace>
@@ -143,8 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Random/src/KangarooSubstrings.java" />
-        <option value="$PROJECT_DIR$/Graphs/src/RemoveInvalidParantheses.java" />
         <option value="$PROJECT_DIR$/BinarySearchTrees/src/SortedListToBST.java" />
         <option value="$PROJECT_DIR$/Arrays/src/canPartitionKSubsets.java" />
         <option value="$PROJECT_DIR$/Arrays/src/PositionInSortedArray.java" />
@@ -194,6 +199,8 @@
         <option value="$PROJECT_DIR$/Arrays/src/binarSearchNonRecursive.java" />
         <option value="$PROJECT_DIR$/Arrays/src/PowerOfInt.java" />
         <option value="$PROJECT_DIR$/Arrays/src/MaxNumberOfVowels.java" />
+        <option value="$PROJECT_DIR$/Arrays/src/ContainsDuplicate.java" />
+        <option value="$PROJECT_DIR$/Arrays/src/ContainsNearbyDuplicate.java" />
       </list>
     </option>
   </component>
@@ -320,7 +327,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaxNumberOfVowels">
+  <component name="RunManager" selected="Application.ContainsNearbyDuplicate">
+    <configuration name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ContainsDuplicate" />
+      <module name="Arrays" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContainsNearbyDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ContainsNearbyDuplicate" />
+      <module name="Arrays" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaxNumberOfVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MaxNumberOfVowels" />
       <module name="Arrays" />
@@ -335,20 +356,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RotatedArray" />
-      <module name="Arrays" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZigZagArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ZigZagArray" />
-      <module name="Arrays" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="binarSearchNonRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binarSearchNonRecursive" />
       <module name="Arrays" />
@@ -358,11 +365,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContainsNearbyDuplicate" />
+        <item itemvalue="Application.ContainsDuplicate" />
         <item itemvalue="Application.MaxNumberOfVowels" />
         <item itemvalue="Application.PowerOfInt" />
         <item itemvalue="Application.binarSearchNonRecursive" />
-        <item itemvalue="Application.ZigZagArray" />
-        <item itemvalue="Application.RotatedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -771,26 +778,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Trees/src/LeftView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Trees/src/IsEqual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Trees/src/BoundaryTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1142,16 +1129,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Arrays/src/binarSearchNonRecursive.java">
+    <entry file="file://$PROJECT_DIR$/Arrays/src/MaxNumberOfVowels.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="243">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="e#2466#2467#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Arrays/src/PowerOfInt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="-505">
           <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="53" />
           <folding>
             <element signature="e#1458#1459#0" expanded="true" />
@@ -1159,12 +1149,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Arrays/src/MaxNumberOfVowels.java">
+    <entry file="file://$PROJECT_DIR$/Arrays/src/binarSearchNonRecursive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" column="16" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+        <state relative-caret-position="141">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/src/ContainsDuplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="15" column="52" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="15" selection-end-column="52" />
           <folding>
-            <element signature="e#2059#2060#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Arrays/src/ContainsNearbyDuplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
